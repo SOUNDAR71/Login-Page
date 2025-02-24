@@ -85,4 +85,10 @@ img{
 .he{
     margin-right: 1px;
 }
-@media screen and (min-width: 780px)
+@media screen and(min-width:780px){
+    .void{
+        display: flex;
+    }
+    
+    
+}
