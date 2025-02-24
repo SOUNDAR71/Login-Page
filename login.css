@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(dawn-landscape-mountains-247478.jpg);
+    /* background-image: url(dawn-landscape-mountains-247478.jpg); */
     background-size: cover;
+    background-color: beige;
 }
 .void{
     left: 30%;
@@ -28,7 +29,7 @@ body{
     bottom: 10px;
     border:10px;
     margin: 2px;
-    box-shadow: inset 12px 5px 12px wheat,
+    box-shadow: inset 12px 5px 12px white,
                         12px 5px 12px rgba(0,0,0,.16);
     border-radius: 10%;
     /* background-image: url(dawn-landscape-mountains-247478.jpg); */
@@ -84,13 +85,4 @@ img{
 }
 .he{
     margin-right: 1px;
-}
-@media screen and(min-width:780px){
-    .void{
-        display: flex;
-    }
-    .main{
-        padding:1rem;
-    
-    
 }
